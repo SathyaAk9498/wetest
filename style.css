@@ -1,0 +1,605 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: 550px;
+    background-image:url(images/anuga_2023_bread_bakery_m24_full_m36_1025.png);
+    background-repeat:repeat-x;
+    margin-bottom: 11px;
+
+    
+}
+.logo img{
+    width: 100px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlinks{
+    display: flex;
+    list-style-type: none;
+    width: 55%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.navlinks li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#check,#checkbtn{
+    display: none;
+}
+.icon i{
+    color: white;
+    font-size: 22px;
+}
+.bakery{
+    width: 55%;
+    height: 320px;
+    margin: 9% auto;
+    border: 1px solid red;
+}
+.bakery p{
+    text-align: center;
+    font-size: 55px;
+    color: rgb(234, 231, 225);
+    margin-bottom: 29px;
+}
+.but{
+
+text-transform: uppercase;
+color: rgb(97, 116, 170);
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px solid wheat;
+    background-color: white;
+    padding: 15px;
+    margin-left: 39%;
+}
+/*  */
+#About{
+    margin: 0 9%;
+    height: 200px;
+   margin-bottom: 3px;
+}
+.box h3{
+    text-align: center;
+    color: rgb(108, 67, 67);
+    margin-bottom: 5px;
+}
+.box p{
+    text-align: center;
+    font-size: 33px;
+    color: rgb(52, 51, 51);
+    margin-bottom: 9px;
+}
+.b1{
+    font-size: 19px;
+    text-align: center;
+    color: rgb(50, 48, 48);
+}
+/*  */
+#gri{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 9%;
+    gap: 15px;
+    /* border: 1px solid red; */
+    margin-bottom: 5px;
+}
+.fon{
+    color: rgb(34, 34, 34);
+    font-size: 55px;
+    margin-bottom: 12px;
+}
+
+.bana p{
+    margin-bottom: 22px;
+    color: rgb(43, 42, 42);
+}
+.bana{
+    display: flex;
+    gap: 9px;
+}
+.bt{
+    text-decoration: none;
+    border-bottom: 2px solid rgb(188, 90, 90);
+}
+/*  */
+#tell{
+    margin: 0 9%;
+    /* border: 1px solid red; */
+    margin-bottom: 9px;
+}
+.hello{
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: 42px;
+}
+.good{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+}
+.first{
+    align-items: center;
+    text-align: center;
+}
+.first img{
+    margin-bottom: 9px;
+}
+.gio{
+font-size: 29px;
+margin-bottom: 22px;
+color: rgb(87, 87, 91);
+font-weight: 900;
+}
+.bio{
+font-size: 42px;
+margin-bottom: 22px;
+color: rgb(87, 87, 91);
+}
+.doll{
+    color: rgb(87, 87, 91);
+    font-size: 22px;
+}
+/*  */
+#line{
+    margin: 0 12%;
+ 
+    margin-bottom: 5px;
+}
+.link{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.like{
+    display: flex;
+    gap: 12px;
+}
+.pars{
+    margin-bottom: 29px;
+    font-size: 19px;
+    color: rgb(95, 94, 94);
+}
+.par p{
+    margin-bottom: 19px;
+    font-size: 29px;
+    color: rgb(48, 46, 46);
+}
+.vertical{
+    width: 1px;
+    height: 309px;
+    background-color: red;
+}
+.fast{
+    font-size: 25px;
+    margin-bottom: 19px;
+ 
+}
+.king{
+    font-size: 16px;
+    margin-bottom: 22px;
+}
+.lin img{
+    width: 500px;
+}
+.cal{
+    display: flex;
+}
+.food p{
+color: black;
+}
+.number p{
+color: rgb(100, 53, 61);
+}
+/*  */
+/*  */
+.video{
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+    
+}
+
+/*  */
+
+/*  */
+
+#our{
+    width: 100%;
+    height: 650px;
+    background-color: pink;
+}
+.made{
+    text-align: center;
+    padding: 33px;
+    font-size: 29px;
+    color: rgb(31, 31, 31);
+}
+.take img{
+    width: 95%;
+    }
+.talk{
+    display: grid;
+    margin: 0 5%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.gio{
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+.rye{
+text-align: center;
+margin-bottom: 9px;
+}
+.symbol{
+text-align: center;
+}
+/*  */
+/*  */
+#client{
+    /* border: 1px solid red; */
+}
+.ou{
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    margin-bottom: 9%;
+}
+.pin{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 19%;
+}
+.man{
+    display: flex;
+    gap: 5%;
+}
+.rich{
+    font-size: 22px;
+    margin-bottom: 9px;
+}
+.samson{
+    font-size: 12px;
+
+}
+#latest{
+    width: 100%;
+    height: 500px;
+    background-color: pink;
+    margin-bottom: 15px;
+}
+.new{
+    text-align: center;
+    font-size: 25px;
+    padding: 29px;
+}
+/*  */
+/*  */
+.ba{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 9%;
+}
+.time{
+margin-bottom: 19px;
+font-style: italic;
+color: rgb(40, 38, 38);
+}
+
+.delight{
+margin-bottom: 15px;
+color: rgb(29, 28, 28);
+font-size: 29px;
+}
+
+.loc{
+margin-bottom: 15px;
+font-size: 22px;
+color: rgb(35, 28, 17);
+}
+.bakers img{
+    margin-bottom: 22px;
+}
+/*  */
+/*  */
+#com{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 5%;
+}
+.photo img{
+    width: 80%;
+}
+#footer{
+    width: 100%;
+    height: 900px;
+    background-color: orangered;
+}
+.letter{
+    margin: 0 19%;
+    padding: 33px;
+}
+.in{
+text-align: center;
+margin-bottom: 22px;
+}
+.lor{
+text-align: center;
+margin-bottom: 22px;
+}
+.space{
+text-align: center;
+border-bottom: 1px solid white;
+}
+.bb1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 9%;
+}
+.add i{
+color: white;
+}
+.phone i{
+    color: white;
+}
+.map i{
+    color: white;
+}
+.add {
+    color: white;
+    margin-bottom: 15px;
+    }
+    .phone{
+        color: white;
+        margin-bottom: 15px;
+    }
+    .map{
+        color: white;
+        margin-bottom: 15px;
+    }
+    .for{
+        text-align: center;
+    }
+    .comopany img{
+        width: 59%;
+    }
+    .for{
+        color: wheat;
+    }
+    .ho{
+margin-bottom: 9px;
+color: white;
+    }
+    .mon{
+        color: white;
+        margin-bottom: 9px;
+    }
+    .font i{
+        border: 12px solid;
+        font-size: 22px;
+        border-radius: 65%;
+        margin-left: 5%;
+    }
+@media (max-width:900px){
+    #checkbtn{
+        display: block;
+        font-size: 22px;
+    }
+    #check:checked~.navlinks{
+        display: block;
+    }
+    .navlinks{
+        flex-direction: column;
+        width: 100%;
+        height: 250px;
+       border: none;
+        top: 15%;
+        background-color: rgb(213, 149, 149);
+        position: absolute;
+        display: none;
+    }
+    .navlinks li{
+        text-align: center;
+        padding:15px;
+    }
+    .navlinks li a{
+        font-size: 19px;
+    }
+    .bakery{
+        width: 69%;
+        height: 333px; 
+    }
+    .bakery p{
+        text-align: center;
+        font-size: 55px;
+        color: rgb(234, 231, 225);
+        margin-bottom: 15px;
+    }
+    .but{
+    align-items: center;
+    text-transform: uppercase;
+    color: rgb(97, 116, 170);
+        text-decoration: none;
+        font-size: 19px;
+        border: 1px solid wheat;
+        background-color: white;
+        padding: 15px;
+        margin-left: 22%;
+    }
+    .container{
+        height: 420px;
+        margin-bottom: 9px;
+    }
+    /*  */
+    #About{
+        margin: 0 9%;
+        height: 250px;
+       /* border: 1px solid red; */
+       margin-bottom: 22px;
+    }
+    .box p{
+        text-align: center;
+    }
+    /*  */
+    #gri{
+        display: grid;
+        grid-template-columns:1fr;
+        margin: 0 9%;
+        /* border: 1px solid red; */
+    }
+    .fon{
+        text-align: center;
+    }
+    .let p{
+        text-align: center;
+    }
+    .bana{
+        flex-direction: column;
+        gap: 9px;
+    }
+    .side img{
+        width: 200px;
+        align-items: center;
+    }
+    .bt{
+        margin-left: 39%;
+    }
+    .good{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .first img{
+        width: 69%;
+    }
+    #tell{
+        margin: 0 5%;
+        margin-bottom: 19px;
+    }
+    /*  */
+    #line{
+        margin: 0 12%;
+    
+        margin-bottom: 5px;
+    }
+    .link{
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+ 
+    .vertical{
+        display: none;
+    }
+    .par p{
+        text-align: center;
+    }
+    .fast{
+     font-size: 22px;
+     text-align: center;
+    
+    }
+    .king{
+        font-size: 12px;
+        text-align: center;
+    }
+    .lin img{
+        align-items: center;
+        width: 200px;
+    }
+    .cal{
+        margin-bottom: 12px;
+    }
+    .video{
+        width: 100%;
+        height: 500px;
+        border: 1px solid red;
+  
+    }
+    iframe{
+        width: 99%;
+    }
+    /*  */
+    /*  */
+    #our{
+        width: 100%;
+        height:2390px;
+        background-color: pink;
+        margin-bottom: 15px;
+    }
+    .talk{
+grid-template-columns: 1fr;
+    }
+    .take{
+        margin-bottom: 9px;
+    }
+    /*  */
+    /*  */
+    .pin{
+        display: grid;
+        grid-template-columns:1fr;
+        margin: 0 19%;
+    }
+    .ma img{
+        width: 95%;
+    }
+    #latest{
+        width: 100%;
+        height: 1000px;
+        background-color: pink;
+    }
+    .ba{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .bakers img{
+        width: 95%;
+    }
+    .time{
+        text-align: center;
+        }
+        
+        .delight{
+       text-align: center;
+        }
+        
+        .loc{
+            text-align: center;
+        }
+        #com{
+            display: grid;
+            grid-template-columns: 1fr;
+            margin: 0 5%;
+        }
+        .photo img{
+            align-items: center;
+        }
+        /*  */
+
+        .letter{
+            margin: 0 20%;
+            padding: 33px;
+        }
+        .bb1{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+
+
+}
